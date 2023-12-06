@@ -1,0 +1,40 @@
+.container{
+    
+    background-color: antiquewhite;
+}
+.container ~ div{
+    
+    background-color: darkgrey;
+    overflow:scroll;
+    margin: 50px;
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.d1{
+    
+    overflow: scroll;
+    /* visibility: hidden; */
+    /* display: none   ; */
+}
+
+
+.temp3{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    overflow:scroll;
+    padding: 10px;
+    background-color: azure;
+}
+
+.temp3>h1:hover{
+    color: blueviolet;
+    font-family: cursive;
+}
+.temp3:hover{
+    /* visibility: hidden; */
+    background-color: aquamarine;
+    border-radius: 20px;
+}

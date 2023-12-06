@@ -1,0 +1,26 @@
+#container{
+    border: 2px solid rgb(243, 108, 108);
+    display: none;
+
+}
+
+#container > div{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 200px;
+    background-color: aquamarine;
+    padding: 50px;   
+    display: none;
+}
+
+.temp1{
+    margin: auto;
+    width: 50% ;
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    overflow: auto;
+}

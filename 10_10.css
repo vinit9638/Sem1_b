@@ -1,0 +1,21 @@
+*{
+    font-family:cursive;
+    background-color: chartreuse;
+}
+
+#first_para{
+    color: rgba(227, 85, 85, 0.724);
+}
+
+#image1{
+    display: ;
+    
+
+    
+    /* margin-left: 30%; */
+}
+
+img{
+    height: inherit;
+    width: inherit;
+}

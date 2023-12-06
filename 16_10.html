@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h3 id="enter_txt">Hello</h3>
+    <img src="new_img.jpg" alt="" height="100px" width="200px" id="img1">
+    <button onclick="document_exmaple()">Click Me</button>
+    <button onclick="reset_img()">Back to normal</button>
+
+    <script>
+        function document_exmaple(){
+            document.getElementById('img1').src = 'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';  
+        }
+        function reset_img(){
+            document.getElementById('img1').src = 'new_img.jpg';
+        }
+
+    </script> 
+</body>
+</html>
